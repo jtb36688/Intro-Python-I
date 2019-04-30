@@ -22,3 +22,6 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
+month = sys.argv[1]
+year = sys.argv[2]
+cal = calendar.TextCalendar()
